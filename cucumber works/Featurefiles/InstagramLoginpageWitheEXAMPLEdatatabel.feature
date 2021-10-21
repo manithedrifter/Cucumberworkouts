@@ -1,4 +1,5 @@
 Feature: Instagram Login page
+@first
 Scenario Outline: Requsted to check login page
 	Given i choose to launch instagram aplication in desktop
 	    When I choose to pass users vaild crdeientals "<username>" and "<password>"
